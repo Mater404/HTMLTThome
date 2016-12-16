@@ -1,0 +1,37 @@
+/*返回顶部*/
+.side_func{
+	position: fixed;
+	bottom: 245px;
+	right: 50%;
+	margin-right: -608px;
+	width: 58px;
+	z-index: 1000;
+}
+.side_func .fun{
+	display: block;
+	text-align: center;
+}
+.side_func .func1{
+	background: #D22222;
+}
+.side_func .func4{
+	color: #D22222;
+	font-weight: bold;
+}
+.side_func .func6{
+	height: 58px;
+	background:#cbcbcb url(../images/gotop.png)0 0 no-repeat;
+	font-size: 0px;
+}
+.side_func a.func6 span  {
+	display: block;
+	color: #dcdcdc;
+	padding-top: 11px;
+}
+.side_func a.func6:hover{
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	background-image:none;
+	background-color:#d22222;
+}

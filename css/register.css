@@ -1,0 +1,55 @@
+body{
+	background: #326eb4;
+	font-size: 12px;
+}
+/*登录部分*/
+#rm_login{
+	padding-top: 80px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.login_panel{
+	margin-top: 56px;
+	text-align: left;
+}
+.login_panel td{
+	color: #fff;
+	padding: 3px 0;
+}
+.login_panel input{
+	height: 30px;
+	width: 290px;
+	font-size: 14px;
+	background-color: #e4ecf5;
+	border: 0;
+	padding: 5px 10px;
+}
+#randomImg{
+	padding-left: 5px;
+	height: 30px;
+	vertical-align: -9px;
+}
+.login_button input{
+	width: 94px;
+	height: 44px;
+	border: none;
+	background: url(../images/login_button.png);
+	font-size: 14px;
+	cursor: pointer;
+}
+.login_button input:active{
+	background-position: -94px 0;
+}
+.login_button a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/*底部部分*/
+.foot{
+	margin-top: 100px;
+	text-align: center;
+	border-top: 1px solid  #5586c0 ;
+	color: #FFFFFF;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script>
+		$(function(){
+			var html ="<p>sdddddd</p>";
+			$("button").click(function(){
+				
+				htmlobj=$.ajax({url:"js/abc.txt"});
+               //显示Ajax返回结果
+               $("div").append(htmlobj.responseText);
+			});
+		});
+	</script>
+	<body>
+		<button>ADD</button>
+		<div>
+			
+		</div>
+		
+	</body>
+</html>

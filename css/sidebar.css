@@ -1,0 +1,78 @@
+#con .sidebar{
+	float: left;
+	margin-left: 40px;
+	width: 300px;
+	overflow: hidden;
+}
+#con .top1{
+	overflow: hidden;
+	border: 1px solid #E8E8E8;
+	border-top: 2px solid #D22222;
+}
+#con .sidebar .top1-title{
+	list-style: none;
+	margin-top: 8px;
+	padding-left: 5px;
+}
+#con .sidebar .top1-title li{
+	float: left;
+	height: 28px;
+	padding: 0 11px 0 11px;
+	font-size: 14px;
+	border-bottom: 1px solid #E5E5E5;
+	cursor: pointer;
+}
+#con .sidebar .top1-title .sidebar_ul_li{
+	color: #D22222;
+	border-bottom: 1px solid #D22222;
+}
+#con .sidebar .top1 .top1-text{
+	list-style: none;
+	background: url(../img/hot_title_bg.gif) 10px 13px no-repeat;
+	overflow: hidden;
+	margin: 0px;
+	padding: 5px 0 0 30px;
+}
+#con .sidebar .top1 .top1-text li{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 7px 0 7px 0;
+}
+#con .top2{
+	border: 1px solid #E8E8E8;
+	border-top: 2px solid #D22222;
+	margin-top: 50px;
+	overflow: hidden;
+}
+#con .top2 h3{
+	margin: 5px 0 5px 10px;
+}
+#con .top2 ul{
+	margin: 0px;
+	padding:0px ;
+}
+#con .top2 ul li{
+	padding: 4px 10px 4px 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 278px;
+}
+#con .top2 .list_pic a{
+	display: block;
+}
+#con .top2 ul .list_pic img{
+	height: 90px;
+}
+#con .top2 ul li.list_pic{
+	float: left;
+	overflow: hidden;
+	padding: 10px 6px 5px 6px;
+	text-overflow: ellipsis;
+	width: 137px;
+	height: 150px;
+	border-bottom: 1px solid #DDDDDD;
+	text-align: center;
+	white-space: inherit;
+}
