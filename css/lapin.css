@@ -79,6 +79,7 @@ a{
 .fixwrapper .topf .to3 .ewm{
 	top: 15px;
 	right: 0;
+	z-index: 2;
 	position: absolute;
 }
 .fvcd{
@@ -422,7 +423,7 @@ a{
 /*底部*/
 .ft{
 	margin-top: 20px;
-	font-size: 1px;
+	/*font-size: 1px;*/
 	background-color: #fafafa;
 }
 .pre1{
