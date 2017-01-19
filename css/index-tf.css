@@ -141,6 +141,11 @@ li{
 	overflow: hidden;
 	background: #FFFFFF;
 }
+@-moz-document url-prefix(){
+	#top5{
+		width: 1100px;
+	}
+} 
 #top5 #logo{
 	float: left;
 	display: block;
@@ -174,7 +179,7 @@ li{
 	float: left;
 	padding: 5px 8px;
 	width: 210px;
-	height: 24px;
+	/*height: 24px;*/
 	outline: 0;
 	border: 1px solid #D22222;
 	background: #fff;

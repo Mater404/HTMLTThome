@@ -4,6 +4,11 @@
 	background: #FFF;
 	padding: 16px 16px;
 }
+@-moz-document url-prefix(){
+	#con{
+		width: 1100px;
+	}
+} 
 /*左边*/
 .lf{
 	float: left;
@@ -220,7 +225,7 @@
 	list-style: none;
 }
 .rt .nlst .new-list ul li{
-	float: left;
+	/*float: left;*/
 	margin-bottom: 3px;
 	padding: 3px 0 3px 22px;
 	min-width: 329px;
@@ -229,9 +234,6 @@
 }
 .rt .nlst .new-list ul li.top{
 	background: url(../img/top_icon.png) left center no-repeat;
-}
-.rt .nlst .new-list ul li.new{
-	
 }
 li span.date{
 	float: right;
@@ -325,7 +327,11 @@ li.mnow span.title{
 	background: #FFFFFF;
 	padding: 16px 16px;
 }
-
+@-moz-document url-prefix(){
+	.con_2{
+		width: 1100px;
+	}
+} 
 .con_2 .img_listbox{
 	height: 393px;
 }

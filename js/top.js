@@ -68,12 +68,14 @@ $(function(){
 			$(".rm").slideUp(100);
 	  	}, 50);
 	});
+	//最新排行
 	$("#ct-tab1").click(function(){
 		$(".lst-1").css("display","block");
 		$(".lst-2").css("display","none");
 		$("#ct-tab1").addClass("current");
 		$("#ct-tab2").removeClass("current");
 	});
+	//热门排行
 	$("#ct-tab2").click(function(){
 		$(".lst-1").css("display","none");
 		$(".lst-2").css("display","block");

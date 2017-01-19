@@ -1,10 +1,11 @@
 $(function(){
 	//图片的鼠标悬停
-	$("#scroll_img li").hover(function(){
-		flag = true;
-	},function(){
-		flag =false;
-	});
+//	$("#scroll_img li").hover(function(){
+//		flag = true;
+//	},function(){
+//		flag =false;
+//	});
+	//新闻标题凸显
 	$(".lst .block ul li").hover(function(){
 		$(this).addClass("mnow");
 		$(this).find(".date").hide();
