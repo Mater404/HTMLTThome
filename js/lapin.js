@@ -164,7 +164,7 @@ $(function(){
 //		}
 		$(".sefc4").val(cont);
 		//侧边栏浮动
-		if(scrtop>1442&&cont>=470){
+		if(scrtop>1442&&cont>=570){
 			$(".right_bar").css("top",scrtop-1450);
 		}
 		if(cont<=547){		//防止遮挡友链
